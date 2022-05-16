@@ -4,7 +4,7 @@ n = int(sys.stdin.readline())
 plans = list(sys.stdin.readline()) 
 x, y = 1, 1
 
-dx = [0, 0, -1, -1]
+dx = [0, 0, -1, 1]
 dy = [-1, 1, 0, 0]
 move_types = ['L', 'R', 'U', 'D']
 
